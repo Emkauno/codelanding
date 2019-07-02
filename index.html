@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo+Black|Lalezar|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo-container"></div>
+      <ul>
+        <li><a href="#servicespoint">Service</a></li>
+        <li><a href="#aboutpoint">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header">
+      <div class="header-img"></div>
+      <div class="header-info">
+        <h1>
+          Building technology <br />through passion,<br />brains, beers<br />
+          & dedication
+        </h1>
+        <p>Have an inquiry?</p>
+        <div class="button-holder">
+          <button>Talk to us</button>
+          <button>PDF</button>
+        </div>
+      </div>
+    </div>
+    <div id="servicespoint"></div>
+    <div id="services">
+      <div
+        class="services-bg rellax"
+        data-rellax-speed="3"
+        data-rellax-max="-50"
+      >
+        <div class="bg"></div>
+      </div>
+      <h1>Our Services</h1>
+      <div class="services-item">
+        <div class="services-item__title">
+          <h2>Development</h2>
+          <img src="img/icon1.svg" alt="" />
+        </div>
+        <p>
+          We provide full-stack development services. Our team of experts is
+          ready to execute any kind of tasks, of any level of challenge and
+          complication. We have expertise both in front-end and back-end
+          technologies. You can learn more about the technologies that we have
+          expertise in by contacting us. We keep code good and clean, you know
+          what we mean.
+        </p>
+      </div>
+      <div class="services-item">
+        <div class="services-item__title">
+          <h2>Mobile</h2>
+          <img src="img/icon2.svg" alt="" />
+        </div>
+        <p>
+          iOS and Android development. We will help you create your site or app
+          and make sure it will run softly and smoothly on any device. We are
+          comfortable with a long list of technologies and as well we are always
+          ready to offer you cross-platform solutions. Our professionals are
+          always ready to face the challenges and ensure the success of your
+          project.
+        </p>
+      </div>
+      <div class="services-item">
+        <div class="services-item__title">
+          <h2>UI/UX</h2>
+          <img src="img/icon3.svg" alt="" />
+        </div>
+        <p>
+          We tend to believe that a project with a perfect design and with a
+          superb usability has big future in the market. We carry out marketing
+          analysis, check out pro's and cons of competitors, create and confirm
+          a mind map or scheme and carry out a clickable prototype. The team has
+          rich experience in this field and we are ready to listen to your
+          requirements and suggests our solutions, customer satisfaction
+          guaranteed.
+        </p>
+      </div>
+      <div class="services-item">
+        <div class="services-item__title">
+          <h2>QA and testing</h2>
+          <img src="img/icon4.svg" alt="" />
+        </div>
+        <p>
+          The QA and testing team is here to make sure that all errors and bugs
+          are eliminated. The team makes sure you have perfect clear
+          documentation, the software is optimized, vulnerabilities are removed
+          and the code is refactored so that it looks really good and your
+          project stays healthy. We are quite enthusiastic about new projects or
+          making the already existing project work more efficient and without
+          problems.
+        </p>
+      </div>
+    </div>
+    <div id="aboutpoint"></div>
+    <div id="about">
+      <h1>About us</h1>
+      <div class="about-text">
+        <p>
+          We are a skilled and proficient company. Enthusiasts brought together
+          by the common passion: Development of a quality product. <br />
+          We work on the tasks of any level of complication and tend to deliver
+          on time and with maximal efficiency. The company considers
+          "Underpromise, overdeliver" as our main principle and we get things
+          done for the client's total satisfaction. <br />
+          In case you need a clean code, smoothly working product and perfect
+          support and understanding - you are just in the right place at the
+          right time. Responsibility and responsiveness are in the list of our
+          main pro's. Talk to us and you will make sure of it yourself
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="img/mobile.png" alt="" />
+      </div>
+    </div>
+    <div id="contact">
+      <div
+        class="contact-bg rellax"
+        data-rellax-speed="-2">
+        <div class="bg"></div>
+      </div>
+
+      <div class="contact-form">
+        <h1>Contact us</h1>
+        <form>
+          <label for="name">Full name</label>
+          <input type="text" id="name" required />
+          <label for="company">Company</label>
+          <input type="text" id="company" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" required></textarea>
+          <input class="button" type="submit" value="Send Message" />
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <h2>2019 © Emkauno</h2>
+        <div class="social">
+          <div class="social-item">
+            <a href="#"><i class="fa fa-github"></i></a> 
+          </div>
+          <div class="social-item">
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+          </div>
+          <div class="social-item">
+           <a href="#"><i class="fa fa-instagram"></i></a> 
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <script src="js/rellax.js"></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+  </body>
+</html>
